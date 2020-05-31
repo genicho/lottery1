@@ -3,7 +3,7 @@ body {
 }
 .line1 ul {
     position: absolute;
-    top: 12rem;
+    top: 20rem;
     margin: auto;
     right: 0;
     left: 0;
@@ -13,7 +13,7 @@ body {
 }
 .line2 ul {
     position: absolute;
-    top: 20rem;
+    top: 40rem;
     margin: auto;
     right: 0;
     left: 0;
@@ -23,14 +23,14 @@ body {
 }
 li {
     float: left;
-    width: 7rem;
-    height: 7rem;
-    border-radius: 3.5rem;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 7rem;
     margin-right: 1.3rem;
     color: white;
     text-align: center;
     line-height: 7rem;
-    font-size: 1.8rem;
+    font-size: 3rem;
 }
 .ball-placeholder {
     background: linear-gradient(135deg, rgba(34, 34, 34, 1) 0%, rgba(0, 0, 0, 1) 100%);
