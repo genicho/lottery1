@@ -45,18 +45,18 @@ li {
     color: white;
 }
 .next-ball {
-    bottom: 2rem;
-    width: 8rem;
-    height: 3rem;
-    font-size: 1.2rem;
+    bottom: 10rem;
+    width: 12rem;
+    height: 5rem;
+    font-size: 3rem;
     background: #7ac9ed;
 }
 .play-again {
     display: none;
-    bottom: 2rem;
-    width: 8rem;
-    height: 3rem;
-    font-size: 1.2rem;
+    bottom: 10rem;
+    width: 12rem;
+    height: 5rem;
+    font-size: 3rem;
     background: #d74d2f;
 }
 
