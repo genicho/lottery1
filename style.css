@@ -1,0 +1,141 @@
+body {
+    background: #444;
+}
+.line1 ul {
+    position: absolute;
+    top: 12rem;
+    margin: auto;
+    right: 0;
+    left: 0;
+    list-style-type: none;
+    width: 24.9rem;
+    height: 10rem;
+}
+.line2 ul {
+    position: absolute;
+    top: 20rem;
+    margin: auto;
+    right: 0;
+    left: 0;
+    list-style-type: none;
+    width: 24.9rem;
+    height: 10rem;
+}
+li {
+    float: left;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 3.5rem;
+    margin-right: 1.3rem;
+    color: white;
+    text-align: center;
+    line-height: 7rem;
+    font-size: 1.8rem;
+}
+.ball-placeholder {
+    background: linear-gradient(135deg, rgba(34, 34, 34, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.next-ball,
+.play-again {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: 0;
+    color: white;
+}
+.next-ball {
+    bottom: 2rem;
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    background: #7ac9ed;
+}
+.play-again {
+    display: none;
+    bottom: 2rem;
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    background: #d74d2f;
+}
+
+.lottery-ball1 {
+    background: linear-gradient(135deg, rgba(255, 0, 0, 1) 0%, rgba(165, 0, 0, 1) 100%);
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 0s;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+.lottery-ball2 {
+    background: linear-gradient(135deg, rgba(255, 255, 0, 1) 0%, rgba(165, 165, 0, 1) 100%);
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 200ms;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+.lottery-ball3 {
+    background: linear-gradient(135deg, rgba(0, 255, 0, 1) 0%, rgba(0, 165, 0, 1) 100%);
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 400ms;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+.lottery-ball4 {
+    background: linear-gradient(135deg, rgba(0, 255, 255, 1) 0%, rgba(0, 165, 165, 1) 100%);
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 600ms;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+.lottery-ball5 {
+    background: linear-gradient(135deg, rgba(0, 0, 255, 1) 0%, rgba(0, 0, 165, 1) 100%);
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 800ms;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+.lottery-ball6 {
+    background: linear-gradient(135deg, rgba(255, 0, 255, 1) 0%, rgba(165, 0, 165, 1) 100%);
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 1000ms;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.title {
+    font-family: '궁서';
+    font-size: 4.5rem;
+}

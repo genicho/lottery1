@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <center>
+        <h1 class="title">
+            로 또 명 당
+        </h1>
+
+    </center>
+
+</head>
+
+<body>
+
+    <div class="line1">
+
+        <ul>
+            <li class="ball-placeholder"></li>
+            <li class="ball-placeholder"></li>
+            <li class="ball-placeholder"></li>
+        </ul>
+
+    </div>
+
+    <div class="line2">
+
+        <ul>
+            <li class="ball-placeholder"></li>
+            <li class="ball-placeholder"></li>
+            <li class="ball-placeholder"></li>
+        </ul>
+
+    </div>
+
+    <div class="line1">
+
+        <ul class="line1">
+            <li class="ball-placeholder lottery1"></li>
+            <li class="ball-placeholder lottery2"></li>
+            <li class="ball-placeholder lottery3"></li>
+
+        </ul>
+
+    </div>
+
+    <div class="line2">
+
+        <ul class="line2">
+            <li class="ball-placeholder lottery4"></li>
+            <li class="ball-placeholder lottery5"></li>
+            <li class="ball-placeholder lottery6"></li>
+
+        </ul>
+
+    </div>
+
+    <button class="next-ball">실행하기</button>
+    <button class="play-again">다시하기</button>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+</body>
+
+<script>
+    var arr = new Array();
+    let random = new Array();
+    $('.next-ball').on('click', function() {
+        for (let i = 0; $('.lottery1').children().length < 1; i++) {
+            random1 = Math.floor(Math.random() * 45 + 1);
+            console.log(random1);
+            if (arr.indexOf(random1) < 0) {
+                arr.push(random1);
+                $('.lottery1').append('<li class="lottery-ball1">' + random1 + '</li>');
+            }
+            console.log(arr);
+        }
+        for (let i = 0; $('.lottery2').children().length < 1; i++) {
+            random[2] = Math.floor(Math.random() * 45 + 1);
+            console.log(random[2]);
+            if (arr.indexOf(random[2]) < 0) {
+                arr.push(random[2]);
+                $('.lottery2').append('<li class="lottery-ball2">' + random[2] + '</li>');
+            }
+            console.log(arr);
+        }
+        for (let i = 0; $('.lottery3').children().length < 1; i++) {
+            random[3] = Math.floor(Math.random() * 45 + 1);
+            console.log(random[3]);
+            if (arr.indexOf(random[3]) < 0) {
+                arr.push(random[3]);
+                $('.lottery3').append('<li class="lottery-ball3">' + random[3] + '</li>');
+            }
+            console.log(arr);
+        }
+        for (let i = 0; $('.lottery4').children().length < 1; i++) {
+            random[4] = Math.floor(Math.random() * 45 + 1);
+            console.log(random[4]);
+            if (arr.indexOf(random[4]) < 0) {
+                arr.push(random[4]);
+                $('.lottery4').append('<li class="lottery-ball4">' + random[4] + '</li>');
+            }
+            console.log(arr);
+        }
+        for (let i = 0; $('.lottery5').children().length < 1; i++) {
+            random[5] = Math.floor(Math.random() * 45 + 1);
+            console.log(random[5]);
+            if (arr.indexOf(random[5]) < 0) {
+                arr.push(random[5]);
+                $('.lottery5').append('<li class="lottery-ball5">' + random[5] + '</li>');
+            }
+            console.log(arr);
+        }
+        for (let i = 0; $('.lottery6').children().length < 1; i++) {
+            random[6] = Math.floor(Math.random() * 45 + 1);
+            console.log(random[6]);
+            if (arr.indexOf(random[6]) < 0) {
+                arr.push(random[6]);
+                $('.lottery6').append('<li class="lottery-ball6">' + random[6] + '</li>');
+            }
+            console.log(arr);
+        }
+        if ($('.lottery6').children().length > 0) {
+            $('.next-ball').hide();
+            $('.play-again').show();
+        }
+    });
+    $('.play-again').on('click', function() {
+        arr = [];
+        $('.next-ball').show();
+        $('.play-again').hide();
+        $('.lottery1').children().remove();
+        $('.lottery2').children().remove();
+        $('.lottery3').children().remove();
+        $('.lottery4').children().remove();
+        $('.lottery5').children().remove();
+        $('.lottery6').children().remove();
+    });
+</script>
+
+<!--  
+    Copyright (c) 2020 by Dan Copeland (https://codepen.io/Copelandic/pen/roICl)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-->
+
+</html>
