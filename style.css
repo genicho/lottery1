@@ -1,5 +1,11 @@
+.title {
+    font-family: '궁서', '궁서체', serif, '돋움', "dotum";
+    font-size: 13rem;
+    margin-top: 7rem;
+}
+
 body {
-    background: rgba(165, 165, 165, 1)
+    background: rgba(160, 160, 160, 1)
 }
 .line1 ul {
     position: absolute;
@@ -13,7 +19,7 @@ body {
 }
 .line2 ul {
     position: absolute;
-    top: 60rem;
+    top: 45rem;
     margin: auto;
     right: 0;
     left: 0;
@@ -34,7 +40,7 @@ li {
     font-size: 5rem;
 }
 .ball-placeholder {
-    background: linear-gradient(135deg, rgba(34, 34, 34, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(135deg, rgba(84, 84, 84, 1) 0%, rgba(0, 0, 0, 1) 100%);
 }
 .next-ball,
 .play-again {
@@ -42,25 +48,28 @@ li {
     right: 0;
     left: 0;
     margin: auto;
-    border: 0;
-    color: white;
+    border: 1rem;
+    
+     font-family: '궁서', '궁서체', serif, '돋움', "dotum";
+    font-size: 4.5rem;
+    top: 80rem;
+    width: 28rem;
+    height: 10rem;
 }
 .next-ball {
-    top: 70rem;
-    width: 24rem;
-    height: 10rem;
-    font-size: 5rem;
-    background: #7ac9ed;
-     font-family: '궁서', '궁서체', serif, '돋움', "dotum";
+   
+   color: black;
+   /* background: #7ac9ed;*/
+    background: rgba(220, 220, 220, 0.8);
+    
 }
 .play-again {
     display: none;
-    top: 70rem;
-    width: 24rem;
-    height: 10rem;
-    font-size: 5rem;
-    background: #d74d2f;
-     font-family: '궁서', '궁서체', serif, '돋움', "dotum";
+    
+   color: white;
+   /* background: #d74d2f; */
+     background: rgba(70, 70, 70, 1);
+     
 }
 
 .lottery-ball1 {
@@ -138,8 +147,3 @@ li {
     }
 }
 
-.title {
-    font-family: '궁서', '궁서체', serif, '돋움', "dotum";
-    font-size: 30rem;
-    margin-top: 8rem;
-}
