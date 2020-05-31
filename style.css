@@ -136,6 +136,6 @@ li {
 }
 
 .title {
-    font-family: '궁서', '궁서체', serif;
+    font-family: '궁서', '궁서체', serif, '돋움', "dotum";
     font-size: 12rem;
 }
