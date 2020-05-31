@@ -1,5 +1,5 @@
 body {
-    background: #444;
+    background: #666;
 }
 .line1 ul {
     position: absolute;
@@ -46,16 +46,16 @@ li {
 }
 .next-ball {
     bottom: 10rem;
-    width: 12rem;
-    height: 5rem;
+    width: 24rem;
+    height: 10rem;
     font-size: 3rem;
     background: #7ac9ed;
 }
 .play-again {
     display: none;
     bottom: 10rem;
-    width: 12rem;
-    height: 5rem;
+    width: 24rem;
+    height: 10rem;
     font-size: 3rem;
     background: #d74d2f;
 }
@@ -136,6 +136,6 @@ li {
 }
 
 .title {
-    font-family: '궁서';
-    font-size: 4.5rem;
+    font-family: '궁서', '궁서체', serif;
+    font-size: 12rem;
 }
