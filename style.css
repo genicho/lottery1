@@ -1,7 +1,7 @@
 .title {
     font-family: '궁서', '궁서체', serif, '돋움', 'dotum';
-    font-size: 13rem;
-    margin-top: 7rem;
+    font-size: 11rem;
+    margin-top: 5rem;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 }
 .line1 ul {
     position: absolute;
-    top: 30rem;
+    top: 27rem;
     margin: auto;
     right: 0;
     left: 0;
@@ -18,7 +18,7 @@ body {
 }
 .line2 ul {
     position: absolute;
-    top: 45rem;
+    top: 42rem;
     margin: auto;
     right: 0;
     left: 0;
