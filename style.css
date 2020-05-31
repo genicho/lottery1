@@ -1,21 +1,20 @@
 .title {
-    font-family: '궁서', '궁서체', serif, '돋움', "dotum";
+    font-family: '궁서', '궁서체', serif, '돋움', 'dotum';
     font-size: 13rem;
     margin-top: 7rem;
 }
 
 body {
-    background: rgba(160, 160, 160, 1)
+    background: rgba(160, 160, 160, 1);
 }
 .line1 ul {
     position: absolute;
-    top:30rem;
+    top: 30rem;
     margin: auto;
     right: 0;
     left: 0;
     list-style-type: none;
     width: 47rem;
-   
 }
 .line2 ul {
     position: absolute;
@@ -25,7 +24,6 @@ body {
     left: 0;
     list-style-type: none;
     width: 47rem;
-   
 }
 li {
     float: left;
@@ -49,93 +47,67 @@ li {
     left: 0;
     margin: auto;
     border: 1rem;
-    
-     font-family: '궁서', '궁서체', serif, '돋움', "dotum";
+
+    font-family: '궁서', '궁서체', serif, '돋움', 'dotum';
     font-size: 4.5rem;
     top: 80rem;
     width: 28rem;
     height: 10rem;
 }
 .next-ball {
-   
-   color: black;
-   /* background: #7ac9ed;*/
+    color: black;
+    /* background: #7ac9ed;*/
     background: rgba(220, 220, 220, 0.8);
-    
 }
 .play-again {
     display: none;
-    
-   color: white;
-   /* background: #d74d2f; */
-     background: rgba(70, 70, 70, 1);
-     
+
+    color: white;
+    /* background: #d74d2f; */
+    background: rgba(70, 70, 70, 1);
 }
 
+.lottery-ball1,
+.lottery-ball2,
+.lottery-ball3,
+.lottery-ball4,
+.lottery-ball5,
+.lottery-ball6 {
+    opacity: 0;
+    animation-name: fadein;
+    
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
 .lottery-ball1 {
     background: linear-gradient(135deg, rgba(255, 0, 0, 1) 0%, rgba(165, 0, 0, 1) 100%);
-    opacity: 0;
-    animation-name: fadein;
     animation-delay: 0s;
-    animation-duration: 300ms;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-out;
 }
-
 .lottery-ball2 {
     background: linear-gradient(135deg, rgba(255, 255, 0, 1) 0%, rgba(165, 165, 0, 1) 100%);
-    opacity: 0;
-    animation-name: fadein;
     animation-delay: 200ms;
-    animation-duration: 300ms;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-out;
 }
 
 .lottery-ball3 {
     background: linear-gradient(135deg, rgba(0, 255, 0, 1) 0%, rgba(0, 165, 0, 1) 100%);
-    opacity: 0;
-    animation-name: fadein;
     animation-delay: 400ms;
-    animation-duration: 300ms;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-out;
 }
 
 .lottery-ball4 {
     background: linear-gradient(135deg, rgba(0, 255, 255, 1) 0%, rgba(0, 165, 165, 1) 100%);
-    opacity: 0;
-    animation-name: fadein;
-    animation-delay: 600ms;
-    animation-duration: 300ms;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-out;
+     animation-delay: 600ms;
 }
 
 .lottery-ball5 {
     background: linear-gradient(135deg, rgba(0, 0, 255, 1) 0%, rgba(0, 0, 165, 1) 100%);
-    opacity: 0;
-    animation-name: fadein;
-    animation-delay: 800ms;
-    animation-duration: 300ms;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-out;
+     animation-delay: 800ms;
 }
 
 .lottery-ball6 {
     background: linear-gradient(135deg, rgba(255, 0, 255, 1) 0%, rgba(165, 0, 165, 1) 100%);
-    opacity: 0;
-    animation-name: fadein;
-    animation-delay: 1000ms;
-    animation-duration: 300ms;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-out;
+     animation-delay: 1000ms;
 }
 
 @keyframes fadein {
@@ -146,4 +118,3 @@ li {
         opacity: 1;
     }
 }
-
