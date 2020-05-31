@@ -140,5 +140,6 @@ li {
 
 .title {
     font-family: '궁서', '궁서체', serif, '돋움', "dotum";
-    font-size: 50px;
+    font-size: 200px;
+    margin-top: 100px;
 }
