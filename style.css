@@ -7,7 +7,7 @@
 }
 
 .title {
-    font-family: 'ChosunGs'/*'Song Myung'*/;
+    font-family: 'ChosunGs', 'Song Myung', '궁서';
     font-size: 11rem;
     margin-top: 5rem;
     text-decoration: none;
@@ -66,15 +66,14 @@ li {
 }
 .next-ball {
     color: black;
-    /* background: #7ac9ed;*/
     background: rgba(220, 220, 220, 0.8);
+    font-family: 'ChosunGs', 'Song Myung', '궁서';
 }
 .play-again {
     display: none;
-
     color: white;
-    /* background: #d74d2f; */
     background: rgba(70, 70, 70, 1);
+    font-family: 'ChosunGs', 'Song Myung', '궁서';
 }
 
 .lottery-ball1,
