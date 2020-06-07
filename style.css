@@ -8,8 +8,8 @@
 
 .title {
     font-family: 'ChosunGs', 'Song Myung', '궁서';
-    font-size: 11rem;
-    margin-top: 5rem;
+    font-size: 11vh;
+    margin-top: 5vh;
     text-decoration: none;
     color: black;
 }
@@ -19,33 +19,33 @@ body {
 }
 .line1 ul {
     position: absolute;
-    top: 25rem;
+    top: 25vh;
     margin: auto;
     right: 0;
     left: 0;
     list-style-type: none;
-    width: 47rem;
+    width: 47vh;
 }
 .line2 ul {
     position: absolute;
-    top: 40rem;
+    top: 40vh;
     margin: auto;
     right: 0;
     left: 0;
     list-style-type: none;
-    width: 47rem;
+    width: 47vh;
 }
 li {
     float: left;
-    width: 14rem;
-    height: 14rem;
-    border-radius: 7rem;
+    width: 14vh;
+    height: 14vh;
+    border-radius: 7vh;
     margin-left: 0;
-    margin-right: 1.5rem;
+    margin-right: 1.5vh;
     color: white;
     text-align: center;
-    line-height: 14rem;
-    font-size: 5rem;
+    line-height: 14vh;
+    font-size: 5vh;
 }
 .ball-placeholder {
     background: linear-gradient(135deg, rgba(84, 84, 84, 1) 0%, rgba(0, 0, 0, 1) 100%);
@@ -56,13 +56,13 @@ li {
     right: 0;
     left: 0;
     margin: auto;
-    border: 1rem;
+    border: 1vh;
 
     font-family: '궁서', '궁서체', serif, '돋움', 'dotum';
-    font-size: 4.5rem;
-    top: 80rem;
-    width: 28rem;
-    height: 10rem;
+    font-size: 4.5vh;
+    top: 80vh;
+    width: 28vh;
+    height: 10vh;
 }
 .next-ball {
     color: black;
