@@ -5,7 +5,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 .title {
     font-family: 'ChosunGs', 'Song Myung', '궁서';
     font-size: 11vh;
@@ -13,7 +12,6 @@
     text-decoration: none;
     color: black;
 }
-
 body {
     background: rgba(160, 160, 160, 1);
 }
@@ -40,7 +38,7 @@ li {
     width: 14vh;
     height: 14vh;
     border-radius: 7vh;
-    margin-left: 0;
+    margin-left: 0vh;
     margin-right: 1.5vh;
     color: white;
     text-align: center;
@@ -56,11 +54,9 @@ li {
     right: 0;
     left: 0;
     margin: auto;
-    border: 1vh;
-
     font-family: '궁서', '궁서체', serif, '돋움', 'dotum';
     font-size: 4.5vh;
-    top: 80vh;
+    top: 85vh;
     width: 28vh;
     height: 10vh;
 }
@@ -75,7 +71,6 @@ li {
     background: rgba(70, 70, 70, 1);
     font-family: 'ChosunGs', 'Song Myung', '궁서';
 }
-
 .lottery-ball1,
 .lottery-ball2,
 .lottery-ball3,
@@ -84,7 +79,6 @@ li {
 .lottery-ball6 {
     opacity: 0;
     animation-name: fadein;
-
     animation-duration: 300ms;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
@@ -98,27 +92,22 @@ li {
     background: linear-gradient(135deg, rgba(255, 255, 0, 1) 0%, rgba(165, 165, 0, 1) 100%);
     animation-delay: 200ms;
 }
-
 .lottery-ball3 {
     background: linear-gradient(135deg, rgba(0, 255, 0, 1) 0%, rgba(0, 165, 0, 1) 100%);
     animation-delay: 400ms;
 }
-
 .lottery-ball4 {
     background: linear-gradient(135deg, rgba(0, 255, 255, 1) 0%, rgba(0, 165, 165, 1) 100%);
     animation-delay: 600ms;
 }
-
 .lottery-ball5 {
     background: linear-gradient(135deg, rgba(0, 0, 255, 1) 0%, rgba(0, 0, 165, 1) 100%);
     animation-delay: 800ms;
 }
-
 .lottery-ball6 {
     background: linear-gradient(135deg, rgba(255, 0, 255, 1) 0%, rgba(165, 0, 165, 1) 100%);
     animation-delay: 1000ms;
 }
-
 @keyframes fadein {
     0% {
         opacity: 0;
