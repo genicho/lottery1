@@ -6,7 +6,7 @@
     font-style: normal;
 }
 .title {
-    font-family: 'ChosunGs', 'Song Myung', '궁서';
+    font-family: 'ChosunGs', 'Song Myung', '궁서', '궁서체', serif, '돋움', 'dotum';
     font-size: 11vh;
     margin-top: 5vh;
     text-decoration: none;
@@ -54,7 +54,7 @@ li {
     right: 0;
     left: 0;
     margin: auto;
-    font-family: '궁서', '궁서체', serif, '돋움', 'dotum';
+    font-family: 'ChosunGs', 'Song Myung', '궁서', '궁서체', serif, '돋움', 'dotum';
     font-size: 4.5vh;
     top: 85vh;
     width: 28vh;
@@ -63,13 +63,11 @@ li {
 .next-ball {
     color: black;
     background: rgba(220, 220, 220, 0.8);
-    font-family: 'ChosunGs', 'Song Myung', '궁서';
 }
 .play-again {
     display: none;
     color: white;
     background: rgba(70, 70, 70, 1);
-    font-family: 'ChosunGs', 'Song Myung', '궁서';
 }
 .lottery-ball1,
 .lottery-ball2,
