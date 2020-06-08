@@ -17,19 +17,19 @@ body {
 }
 .line1 ul {
     position: absolute;
-    top: 25vh;
+    top: 18vh;
     margin: auto;
     right: 0;
-    left: 0;
+    left: -5vh;
     list-style-type: none;
     width: 47vh;
 }
 .line2 ul {
     position: absolute;
-    top: 40vh;
+    top: 33vh;
     margin: auto;
     right: 0;
-    left: 0;
+    left: -5vh;
     list-style-type: none;
     width: 47vh;
 }
@@ -56,7 +56,7 @@ li {
     margin: auto;
     font-family: 'ChosunGs', 'Song Myung', '궁서', '궁서체', serif, '돋움', 'dotum';
     font-size: 4.5vh;
-    top: 85vh;
+    top: 80vh;
     width: 28vh;
     height: 10vh;
 }
@@ -117,5 +117,5 @@ li {
 .ad-banner{
     width: 320px;
     margin: 0 auto;
-    margin-top: 45vh;
+    margin-top: 40vh;
 }
