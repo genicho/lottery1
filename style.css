@@ -12,6 +12,15 @@
     text-decoration: none;
     color: black;
 }
+
+.title:hover {
+    font-family: 'ChosunGs', 'Song Myung', '궁서', '궁서체', serif, '돋움', 'dotum';
+    font-size: 8.3vh;
+    margin-top: 4vh;
+    text-decoration: none;
+    color: black;
+}
+
 body {
     background: rgba(160, 160, 160, 1);
 }
