@@ -22,7 +22,7 @@ body {
     right: 0;
     left: 0vh;
     list-style-type: none;
-    width: 47vh;
+    width: 52vh;
 }
 .line2 ul {
     position: absolute;
@@ -31,7 +31,7 @@ body {
     right: 0;
     left: 0vh;
     list-style-type: none;
-    width: 47vh;
+    width: 52vh;
 }
 li {
     float: left;
@@ -120,6 +120,8 @@ li {
     left: 0;
     width: 320px;
     margin: auto;
-
     bottom: 18vh;
 }
+
+
+
